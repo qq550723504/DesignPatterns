@@ -6,7 +6,19 @@ namespace StatePattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var context = new Context();
+
+            var startState = new StartState();
+            startState.DoAction(context);
+
+            Console.WriteLine(context.GetState().ToString());
+
+            StopState stopState = new StopState();
+            stopState.DoAction(context);
+
+            Console.WriteLine(context.GetState().ToString());
+
+            Console.ReadKey();
         }
     }
 }

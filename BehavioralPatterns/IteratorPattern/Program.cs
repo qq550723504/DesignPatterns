@@ -6,7 +6,15 @@ namespace IteratorPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var namesRepository = new NameRepository();
+
+            for (var iter = namesRepository.GetIterator(); iter.HasNext();)
+            {
+                var name = iter.Next();
+                Console.WriteLine($"Name : {name}");
+            }
+
+            Console.ReadKey();
         }
     }
 }
