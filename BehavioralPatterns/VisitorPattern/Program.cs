@@ -6,7 +6,10 @@ namespace VisitorPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var computer = new Computer();
+            computer.Accept(new ComputerPartDisplayVisitor());
+
+            Console.ReadKey();
         }
     }
 }

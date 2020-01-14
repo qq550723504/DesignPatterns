@@ -6,7 +6,14 @@ namespace TemplatePattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game game = new Cricket();
+            game.Play();
+
+            Console.WriteLine();
+            game = new Football();
+            game.Play();
+
+            Console.ReadKey();
         }
     }
 }
