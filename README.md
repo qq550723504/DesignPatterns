@@ -12,31 +12,31 @@
 > + [建造者模式（Builder Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/CreationalPatterns/BuilderPattern)
 > + [原型模式（Prototype Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/CreationalPatterns/PrototypePattern)
 >
->结构型模式（Structural Patterns）
+>[结构型模式（Structural Patterns）](https://github.com/qq550723504/DesignPatterns/tree/master/StructuralPatterns)
 >
-> + 适配器模式（Adapter Pattern）
-> + 桥接模式（Bridge Pattern）
-> + 过滤器模式（Filter、Criteria Pattern）
-> + 组合模式（Composite Pattern）
-> + 装饰器模式（Decorator Pattern）
-> + 外观模式（Facade Pattern）
-> + 享元模式（Flyweight Pattern）
-> + 代理模式（Proxy Pattern）
+> + [适配器模式（Adapter Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/StructuralPatterns/AdapterPattern)
+> + [桥接模式（Bridge Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/StructuralPatterns/BridgePattern)
+> + [过滤器模式（Filter、Criteria Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/StructuralPatterns/FilterPattern)
+> + [组合模式（Composite Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/StructuralPatterns/CompositePattern)
+> + [装饰器模式（Decorator Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/StructuralPatterns/DecoratorPattern)
+> + [外观模式（Facade Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/StructuralPatterns/FacadePattern)
+> + [享元模式（Flyweight Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/StructuralPatterns/FlyweightPattern)
+> + [代理模式（Proxy Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/StructuralPatterns/ProxyPattern)
 >
->行为型模式（Behavioral Patterns）
+>[行为型模式（Behavioral Patterns）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns)
 >
-> + 责任链模式（Chain of Responsibility Pattern）
-> + 命令模式（Command Pattern）
-> + 解释器模式（Interpreter Pattern）
-> + 迭代器模式（Iterator Pattern）
-> + 中介者模式（Mediator Pattern）
-> + 备忘录模式（Memento Pattern）
-> + 观察者模式（Observer Pattern）
-> + 状态模式（State Pattern）
-> + 空对象模式（Null Object Pattern）
-> + 策略模式（Strategy Pattern）
-> + 模板模式（Template Pattern）
-> + 访问者模式（Visitor Pattern）
+> + [责任链模式（Chain of Responsibility Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/ChainOfResponsibilityPattern)
+> + [命令模式（Command Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/CommandPattern)
+> + [解释器模式（Interpreter Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/InterpreterPattern)
+> + [迭代器模式（Iterator Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/IteratorPattern)
+> + [中介者模式（Mediator Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/MediatorPattern)
+> + [备忘录模式（Memento Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/MementoPattern)
+> + [观察者模式（Observer Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/ObserverPattern)
+> + [状态模式（State Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/StatePattern)
+> + [空对象模式（Null Object Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/NullObjectPattern)
+> + [策略模式（Strategy Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/StrategyPattern)
+> + [模板模式（Template Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/TemplatePattern)
+> + [访问者模式（Visitor Pattern）](https://github.com/qq550723504/DesignPatterns/tree/master/BehavioralPatterns/VisitorPattern)
 >
 
 ## 设计模式的六大原则
