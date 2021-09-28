@@ -36,6 +36,6 @@ __注意事项__：系统需要支持命令的撤销(Undo)操作和恢复(Redo)�
 
 ## 实现
 
-我们首先创建作为命令的接口 Order，然后创建作为请求的 Stock 类。实体命令类 BuyStock 和 SellStock，实现了 Order 接口，将执行实际的命令处理。创建作为调用对象的类 Broker，它接受订单并能下订单。
+我们首先创建作为命令的接口 IOrder，然后创建作为请求的 Stock 类。实体命令类 BuyStock 和 SellStock，实现了 IOrder 接口，将执行实际的命令处理。创建作为调用对象的类 Broker，它接受订单并能下订单。
 
 Broker 对象使用命令模式，基于命令的类型确定哪个对象执行哪个命令。CommandPatternDemo，我们的演示类使用 Broker 类来演示命令模式。

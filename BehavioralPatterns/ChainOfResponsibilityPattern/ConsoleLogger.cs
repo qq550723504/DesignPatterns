@@ -6,7 +6,7 @@ namespace ChainOfResponsibilityPattern
     {
         public ConsoleLogger(int level) 
         {
-            this.level = level;
+            Level = level;
         }
         protected override void Write(string message)
         {

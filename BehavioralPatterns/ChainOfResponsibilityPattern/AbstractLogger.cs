@@ -6,7 +6,7 @@
         public static int DEBUG = 2;
         public static int ERROR = 3;
 
-        protected int level;
+        protected int Level;
 
         protected AbstractLogger _nextLogger;
 
@@ -17,7 +17,7 @@
 
         public void LogMessage(int level, string message)
         {
-            if (this.level <= level)
+            if (Level <= level)
             {
                 Write(message);
             }
